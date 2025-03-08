@@ -19,7 +19,7 @@ poetry add DEPENDENCY@==VERSION
 # into the main dependencies.
 poetry add DEPENDENCY@^VERSION
 
-# Installs the latest patch updates (within the same major and minor versions)
+# Installs the latest patch update (within the same major and minor versions)
 # into the main dependencies.
 poetry add DEPENDENCY@~VERSION
 
@@ -37,6 +37,11 @@ poetry lock --no-update
 # Updates all dependencies in the project to the latest versions that are allowed
 # by the version constraints specified in the pyproject.toml file.
 poetry update
+
+# Updates all dependencies to their absolute latest versions, completely ignoring the
+# version constraints specified in the pyproject.toml file and updates the poetry.lock file.
+# it will not change the version constraints in the pyproject.toml file.
+poetry update --no-update --lock
 
 # Only updates the specified dependency and its dependencies to the latest versions
 # that are allowed by the version constraints in the pyproject.toml file..

@@ -1,0 +1,15 @@
+# IDE
+idea
+/idea
+.idea
+/.idea
+
+# Virtual Environments
+venv
+/venv
+.venv
+/.venv
+
+# Env Files
+.env
+.secrets
