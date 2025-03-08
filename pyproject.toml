@@ -29,7 +29,6 @@ classifiers = [
     'Development Status :: 5 - Production/Stable',
     'Environment :: Web Environment',
     'Framework :: Flask',
-    'Framework :: Fimex',
     'Intended Audience :: Developers',
     'License :: OSI Approved :: BSD 3-Clause License',
     'Operating System :: OS Independent',
