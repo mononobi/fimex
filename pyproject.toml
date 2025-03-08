@@ -1,6 +1,6 @@
 [tool.poetry]
 name = 'fimex'
-version = '0.0.1'
+version = '0.0.2'
 description = 'Fimex enhances Flask, providing a smoother, more efficient development experience for building maintainable web applications.'
 license = 'BSD 3-Clause'
 readme = 'README.md'
@@ -50,6 +50,7 @@ classifiers = [
 python = '>=3.10'
 flask = '~3.1.0'
 balerin = '~0.1.4'
+python-dotenv = '~1.0.1'
 
 [tool.poetry.group.lint.dependencies]
 ruff = '~0.9.10'
