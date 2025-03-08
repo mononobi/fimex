@@ -8,7 +8,7 @@ homepage = 'https://github.com/mononobi/fimex'
 repository = 'https://github.com/mononobi/fimex'
 documentation = 'https://github.com/mononobi/fimex'
 scripts = {}
-urls = { "Issues" = 'https://github.com/mononobi/fimex/issues' }
+urls = { 'Issues' = 'https://github.com/mononobi/fimex/issues' }
 packages =[
     { include = 'fimex', from = 'src' },
 ]
