@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "fimex"
+version = "0.1.0"
+description = "Flask Improved Experience"
+authors = ["mono <5990186+mononobi@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "~3.1.0"
+balerin = "~0.1.4"
+
+[tool.poetry.group.lint.dependencies]
+ruff = "~0.9.10"
+
+[tool.poetry.group.test.dependencies]
+pytest = "~8.3.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
